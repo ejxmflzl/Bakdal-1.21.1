@@ -10,6 +10,7 @@ import java.nio.channels.NetworkChannel;
 
 public final class Bakdalmain {
     public static final String MOD_ID = "bakdal";
+    public static final String test = "test";
 
     public static void init() {
         GrabActionPayload.register();
