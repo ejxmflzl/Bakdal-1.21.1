@@ -16,6 +16,7 @@ public final class Bakdalmain {
         GrabActionPayload.register();
         CrawingActionPayload.register();
         SetCrawingPayload.registerClient();
+        ChargeJumpStatePayload.register();
 
     }
 

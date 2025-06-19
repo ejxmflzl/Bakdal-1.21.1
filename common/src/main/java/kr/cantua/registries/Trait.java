@@ -18,7 +18,8 @@ public class Trait {
         IS_JUMP_CHARGING,
         IS_GRAB_HELD,
         IS_JUMP_HELD,
-        IS_CHARGED_JUMPING
+        IS_CHARGED_JUMPING,
+        IS_SNEAK_HELD
     }
     public enum Int {
         VAULT_LEVEL

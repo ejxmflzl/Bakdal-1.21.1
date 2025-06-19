@@ -1,7 +1,6 @@
 package kr.cantua.fabric.event;
 
 import dev.architectury.networking.NetworkManager;
-import kr.cantua.network.packet.ChargeJumpStatePacket;
 import kr.cantua.packet.ChargeJumpStatePayload;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
