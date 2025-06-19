@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "bakdal",
+  "version": "1.0.0+1.21.1",
+  "name": "Bakdal",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "cantua"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bakdal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "cardinal-components": [
+      "kr.cantua.fabric.component.TraitComponentInitializer"
+    ],
+    "main": [
+      "kr.cantua.fabric.FabricMod"
+    ],
+    "client": [
+      "kr.cantua.fabric.client.FabricModClient"
+    ]
+  },
+  "mixins": [
+    "bakdal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "cardinal-components-base": ">=5.0.0",
+    "cardinal-components-entity": ">=5.0.0"
+  },
+  "custom": {
+    "cardinal-components": [
+      "bakdal:trait"
+    ]
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

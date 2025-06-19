@@ -1,0 +1,15 @@
+{
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-06-19 03:31:18 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-19 03:31:17 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
